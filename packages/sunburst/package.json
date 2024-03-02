@@ -29,10 +29,10 @@
         "!dist/tsconfig.tsbuildinfo"
     ],
     "dependencies": {
-        "@nivo/arcs": "workspace:*",
-        "@nivo/colors": "workspace:*",
-        "@nivo/core": "workspace:*",
-        "@nivo/tooltip": "workspace:*",
+        "@nivo/arcs": "file:../arcs",
+        "@nivo/colors": "file:../colors",
+        "@nivo/core": "file:../core",
+        "@nivo/tooltip": "file:../tooltip",
         "@types/d3-hierarchy": "^1.1.8",
         "d3-hierarchy": "^1.1.8",
         "lodash": "^4.17.21"

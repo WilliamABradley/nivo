@@ -30,12 +30,12 @@
         "!dist/tsconfig.tsbuildinfo"
     ],
     "dependencies": {
-        "@nivo/axes": "workspace:*",
-        "@nivo/colors": "workspace:*",
-        "@nivo/core": "workspace:*",
-        "@nivo/legends": "workspace:*",
-        "@nivo/scales": "workspace:*",
-        "@nivo/tooltip": "workspace:*",
+        "@nivo/axes": "file:../axes",
+        "@nivo/colors": "file:../colors",
+        "@nivo/core": "file:../core",
+        "@nivo/legends": "file:../legends",
+        "@nivo/scales": "file:../scales",
+        "@nivo/tooltip": "file:../tooltip",
         "@react-spring/web": "9.4.5 || ^9.7.2",
         "@types/d3-scale": "^3.2.3",
         "@types/d3-shape": "^2.0.0",

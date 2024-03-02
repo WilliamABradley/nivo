@@ -22,7 +22,7 @@
         "nodemon": "^2.0.22"
     },
     "dependencies": {
-        "@nivo/express": "workspace:*",
+        "@nivo/express": "file:../express",
         "@types/body-parser": "^1.19.2",
         "@types/cors": "^2.8.12",
         "@types/express": "^4.17.13",

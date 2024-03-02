@@ -29,10 +29,10 @@
         "!dist/tsconfig.tsbuildinfo"
     ],
     "dependencies": {
-        "@nivo/colors": "workspace:*",
-        "@nivo/core": "workspace:*",
-        "@nivo/legends": "workspace:*",
-        "@nivo/tooltip": "workspace:*",
+        "@nivo/colors": "file:../colors",
+        "@nivo/core": "file:../core",
+        "@nivo/legends": "file:../legends",
+        "@nivo/tooltip": "file:../tooltip",
         "@react-spring/web": "9.4.5 || ^9.7.2",
         "@types/d3-sankey": "^0.11.2",
         "@types/d3-shape": "^2.0.0",

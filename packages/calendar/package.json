@@ -29,9 +29,9 @@
         "!dist/tsconfig.tsbuildinfo"
     ],
     "dependencies": {
-        "@nivo/core": "workspace:*",
-        "@nivo/legends": "workspace:*",
-        "@nivo/tooltip": "workspace:*",
+        "@nivo/core": "file:../core",
+        "@nivo/legends": "file:../legends",
+        "@nivo/tooltip": "file:../tooltip",
         "@types/d3-scale": "^3.2.3",
         "@types/d3-time": "^1.0.10",
         "@types/d3-time-format": "^3.0.0",

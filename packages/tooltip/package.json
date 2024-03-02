@@ -21,7 +21,7 @@
         "!dist/tsconfig.tsbuildinfo"
     ],
     "dependencies": {
-        "@nivo/core": "workspace:*",
+        "@nivo/core": "file:../core",
         "@react-spring/web": "9.4.5 || ^9.7.2"
     },
     "publishConfig": {

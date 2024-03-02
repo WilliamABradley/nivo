@@ -29,10 +29,10 @@
         "index.d.ts"
     ],
     "dependencies": {
-        "@nivo/colors": "workspace:*",
-        "@nivo/core": "workspace:*",
-        "@nivo/legends": "workspace:*",
-        "@nivo/tooltip": "workspace:*",
+        "@nivo/colors": "file:../colors",
+        "@nivo/core": "file:../core",
+        "@nivo/legends": "file:../legends",
+        "@nivo/tooltip": "file:../tooltip",
         "d3-format": "^1.4.4",
         "d3-geo": "^1.11.3",
         "lodash": "^4.17.21",

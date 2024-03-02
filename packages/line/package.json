@@ -29,14 +29,14 @@
         "dist/"
     ],
     "dependencies": {
-        "@nivo/annotations": "workspace:*",
-        "@nivo/axes": "workspace:*",
-        "@nivo/colors": "workspace:*",
-        "@nivo/core": "workspace:*",
-        "@nivo/legends": "workspace:*",
-        "@nivo/scales": "workspace:*",
-        "@nivo/tooltip": "workspace:*",
-        "@nivo/voronoi": "workspace:*",
+        "@nivo/annotations": "file:../annotations",
+        "@nivo/axes": "file:../axes",
+        "@nivo/colors": "file:../colors",
+        "@nivo/core": "file:../core",
+        "@nivo/legends": "file:../legends",
+        "@nivo/scales": "file:../scales",
+        "@nivo/tooltip": "file:../tooltip",
+        "@nivo/voronoi": "file:../voronoi",
         "@react-spring/web": "9.4.5 || ^9.7.2",
         "d3-shape": "^1.3.5",
         "prop-types": "^15.7.2"

@@ -28,9 +28,9 @@
         "!dist/tsconfig.tsbuildinfo"
     ],
     "dependencies": {
-        "@nivo/arcs": "workspace:*",
-        "@nivo/core": "workspace:*",
-        "@nivo/scales": "workspace:*",
+        "@nivo/arcs": "file:../arcs",
+        "@nivo/core": "file:../core",
+        "@nivo/scales": "file:../scales",
         "@react-spring/web": "9.4.5 || ^9.7.2"
     },
     "peerDependencies": {

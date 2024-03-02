@@ -28,8 +28,8 @@
         "!dist/tsconfig.tsbuildinfo"
     ],
     "dependencies": {
-        "@nivo/colors": "workspace:*",
-        "@nivo/core": "workspace:*",
+        "@nivo/colors": "file:../colors",
+        "@nivo/core": "file:../core",
         "@react-spring/web": "9.4.5 || ^9.7.2",
         "@types/prop-types": "^15.7.2",
         "lodash": "^4.17.21",
